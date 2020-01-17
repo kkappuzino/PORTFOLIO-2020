@@ -1,0 +1,335 @@
+
+@media (min-width: 992px){
+    .web.dark{
+        position: absolute;
+        width: 100%;
+        margin: auto;
+        overflow-x: hidden;   
+        background-color: $main-color;
+
+        section{
+            position: relative;
+            width: 90%;
+            margin: auto;
+        }
+        h1, h2, h3{
+            color: #fff;
+            font-family: 'Unica One', cursive;;
+        }
+        h1{
+            font-size: $h1-size;
+            text-transform: uppercase;
+        }
+        h2{
+            font-size: $h2-size;
+            text-transform: uppercase;
+        }
+        h3{
+            font-size: $h3-size;
+        }
+        h4{
+            font-size: 25px;
+            color: #fff;
+            font-family: 'Staatliches', cursive;
+        }
+        p {
+            color: $p-color;
+            font-size: $p-size;
+            font-family: 'Raleway', sans-serif;
+        }
+        hr{
+            color: #fff;
+        }
+        .fas, .far{
+            color: #fff;
+            fill: none;
+            font-size: $h3-size;
+        }
+        .v-center{
+            vertical-align: middle;
+        }
+        .title-main{
+            width: 800px;
+            left: -150px;
+            top: 80px;
+            position: absolute;
+            padding: 40px 0 90px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            -webkit-animation: neonDarktxt 1.5s ease-in-out infinite alternate;
+            -moz-animation: neonDarktxt 1.5s ease-in-out infinite alternate;
+            animation: neonDarktxt 1.5s ease-in-out infinite alternate;
+        }
+        .title-skills{
+            position: absolute;
+            top: 70px;
+            right: 0px;
+        }
+        .neon-line{
+            transition: .6s ease-in;
+            color: #fff;
+            -webkit-animation: neonDarkbox 1.5s ease-in-out infinite alternate;
+            -moz-animation: neonDarkbox 1.5s ease-in-out infinite alternate;
+            animation: neonDarkbox 1.5s ease-in-out infinite alternate;
+        }
+        .neon-line.main{
+            border: 4px solid;
+            border-radius: 20px;
+            overflow: visible;
+            width: 500px;
+            margin: auto;
+            top: 100px;
+            height: 500px;
+            position: relative;
+        }
+
+        .neon-line.skills{
+            border: 4px solid;
+            border-radius: 20px;
+            overflow: visible;
+            width: 200px;
+            height: 300px;
+            position: absolute;
+            right: 0px;
+            top: 133px;
+        }
+
+        .bottom-left{
+            position: absolute;
+            bottom: 5%;
+            left:3%
+        }
+
+        .progress{
+            background-color: $secondary;
+            .progress-bar{
+                background-color: $font-color
+            }
+        }
+        .logo{
+            width: 40%;
+
+        }
+    }
+    .web.light{
+        position: absolute;
+        width: 100%;
+        margin: auto;
+        overflow-x: hidden;   
+        background-color: $main-light-color;
+
+        section{
+            position: relative;
+            width: 90%;
+            margin: auto;
+        }
+        h1, h2, h3{
+            color: rgb(255, 255, 255);
+            font-family: 'Unica One', cursive;;
+        }
+        h1{
+            font-size: $h1-size;
+            text-transform: uppercase;
+        }
+        h2{
+            font-size: $h2-size;
+            text-transform: uppercase;
+        }
+        h3{
+            font-size: $h3-size;
+        }
+        h4{
+            font-size: 25px;
+            color: #000;
+            font-family: 'Staatliches', cursive;
+        }
+        p {
+            color: $p-light-color;
+            font-size: $p-size;
+            font-family: 'Raleway', sans-serif;
+        }
+        hr{
+            color: #000;
+        }
+        .fas, .far{
+            color: #000;
+            fill: none;
+            font-size: $h3-size;
+        }
+        .v-center{
+            vertical-align: middle;
+        }
+        .title-main{
+            width: 800px;
+            left: -150px;
+            top: 80px;
+            position: absolute;
+            padding: 40px 0 90px;
+            text-align: center;
+            color: rgb(255, 255, 255);
+            -webkit-animation: neonLighttxt 1.5s ease-in-out infinite alternate;
+            -moz-animation: neonLighttxt 1.5s ease-in-out infinite alternate;
+            animation: neonLighttxt 1.5s ease-in-out infinite alternate;
+        }
+        .title-skills{
+            position: absolute;
+            top: 70px;
+            right: 0px;
+            color: rgb(255, 255, 255);
+            -webkit-animation: neonLighttxt 1.5s ease-in-out infinite alternate;
+            -moz-animation: neonLighttxt 1.5s ease-in-out infinite alternate;
+            animation: neonLighttxt 1.5s ease-in-out infinite alternate;
+        }
+        .neon-line{
+            transition: .6s ease-in;
+            color: #fff;
+            -webkit-animation: neonLightbox 1.5s ease-in-out infinite alternate;
+            -moz-animation: neonLightbox 1.5s ease-in-out infinite alternate;
+            animation: neonLightbox 1.5s ease-in-out infinite alternate;
+        }
+        .neon-line.main{
+            border: 4px solid;
+            border-radius: 20px;
+            overflow: visible;
+            width: 500px;
+            margin: auto;
+            top: 100px;
+            height: 500px;
+            position: relative;
+        }
+
+        .neon-line.skills{
+            border: 4px solid;
+            border-radius: 20px;
+            overflow: visible;
+            width: 200px;
+            height: 300px;
+            position: absolute;
+            right: 0px;
+            top: 133px;
+        }
+
+        .bottom-left{
+            position: absolute;
+            bottom: 5%;
+            left:3%
+        }
+
+        .logo{
+            width: 40%;
+
+        }
+    }
+}
+
+@media (max-width: 992px){
+    .web.dark{
+        position: relative;
+        width: 100%;
+        margin: auto;
+        overflow-x: hidden;   
+        background-color: $main-color;
+
+        section{
+            position: relative;
+            width: 100%;
+            display: block;
+            margin: auto;
+            text-align: center;
+        }
+        h1, h2, h3{
+            color: #fff;
+            font-family: 'Unica One', cursive;;
+        }
+        h1{
+            font-size: $h1-size-mobile;
+            text-transform: uppercase;
+        }
+        h2{
+            font-size: $h2-size-mobile;
+            text-transform: uppercase;
+        }
+        h3{
+            font-size: $h3-size-mobile;
+        }
+        h4{
+            font-size: 25px;
+            color: #fff;
+            font-family: 'Staatliches', cursive;
+        }
+        p {
+            color: $p-color;
+            font-size: $p-size-mobile;
+            font-family: 'Raleway', sans-serif;
+        }
+        hr{
+            color: #fff;
+        }
+        .fas, .far{
+            color: #fff;
+            fill: none;
+            font-size: $h3-size;
+        }
+        .title-main{
+            width: 500px;
+            left: -100px;
+            top: 40px;
+            position: absolute;
+            text-align: center;
+        }
+        .title-skills {
+            text-align: center;
+            left: -40px;
+            top: 70px;
+            position: absolute;
+        }
+        .neon-line.main{
+            display: block;
+            border: 4px solid;
+            border-radius: 20px;
+            overflow: visible;
+            width: 300px;
+            height: 500px;
+            position: relative;
+            margin: auto;
+        }
+
+        .neon-line.skills{
+            display: block;
+            border: 4px solid;
+            border-radius: 20px;
+            overflow: visible;
+            width: 200px;
+            height: 300px;
+            position: relative;
+            margin: auto;
+            right: 0;
+        }
+    }
+}
+
+@media (min-height: 700px){
+    section{
+        min-height: 800px;
+    }
+}
+@media (min-height: 800px){
+    section{
+        min-height: 900px;
+    }
+}
+@media (min-height: 900px){
+    section{
+        min-height: 1000px;
+    }
+}
+@media (min-height: 1000px){
+    section{
+        min-height: 1100px;
+    }
+}
+@media (min-height: 1200px){
+    section{
+        min-height: 1300px;
+    }
+}
