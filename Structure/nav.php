@@ -10,6 +10,7 @@
       <!-- using tags for href are useful for one pagers-->
       <li><a href="#home"><i class="far fa-circle" data-text="Home"></i></a></li>
       <li><a href="#skills"><i class="far fa-circle" data-text="Skills"></i></a></li>
+      <li><a href="#works"><i class="far fa-circle" data-text="Art"></i></a></li>
       <li><a href="#art"><i class="far fa-circle" data-text="Art"></i></a></li>
       <li><a href="#me"><i class="far fa-circle" data-text="About Me"></i></a></li>
     </ul>
