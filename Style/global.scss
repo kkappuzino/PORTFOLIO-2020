@@ -93,6 +93,25 @@
             right: 0px;
             top: 133px;
         }
+        .works{
+            padding: 50px;
+            height: 750px;
+            margin: 100px 0;
+            background-color: #0c1212;
+            border: 10px inset #0d1513;
+            img{
+                
+                position: relative;
+                height: 100%;
+                width: auto;
+                border: 2px solid $main-light-color;
+            }
+            .works-link{
+                position: absolute;
+                left: 50px;
+                bottom: 50px;
+            }
+        }
 
         .bottom-left{
             position: absolute;
@@ -207,6 +226,23 @@
             position: absolute;
             right: 0px;
             top: 133px;
+        }
+        .works{
+            padding: 50px;
+            height: 750px;
+            margin: 100px 0;
+            border: 1px solid $main-color;
+            img{
+                
+                position: relative;
+                height: 100%;
+                width: auto;
+            }
+            .works-link{
+                position: absolute;
+                left: 50px;
+                bottom: 50px;
+            }
         }
 
         .bottom-left{
