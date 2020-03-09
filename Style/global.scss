@@ -1,371 +1,280 @@
+html{
+    scroll-behavior: smooth;
 
-@media (min-width: 992px){
-    .web.dark{
-        position: absolute;
-        width: 100%;
-        margin: auto;
-        overflow-x: hidden;   
-        background-color: $main-color;
-
-        section{
-            position: relative;
-            width: 90%;
-            margin: auto;
-        }
-        h1, h2, h3{
-            color: #fff;
-            font-family: 'Unica One', cursive;;
-        }
-        h1{
-            font-size: $h1-size;
-            text-transform: uppercase;
-        }
-        h2{
-            font-size: $h2-size;
-            text-transform: uppercase;
-        }
-        h3{
-            font-size: $h3-size;
-        }
-        h4{
-            font-size: 25px;
-            color: #fff;
-            font-family: 'Staatliches', cursive;
-        }
-        p {
-            color: $p-color;
-            font-size: $p-size;
-            font-family: 'Raleway', sans-serif;
-        }
-        hr{
-            color: #fff;
-        }
-        .fas, .far{
-            color: #fff;
-            fill: none;
-            font-size: $h3-size;
-        }
-        .v-center{
-            vertical-align: middle;
-        }
-        .title-main{
-            width: 800px;
-            left: -150px;
-            top: 80px;
-            position: absolute;
-            padding: 40px 0 90px;
-            text-align: center;
-            color: rgb(255, 255, 255);
-            -webkit-animation: neonDarktxt 1.5s ease-in-out infinite alternate;
-            -moz-animation: neonDarktxt 1.5s ease-in-out infinite alternate;
-            animation: neonDarktxt 1.5s ease-in-out infinite alternate;
-        }
-        .title-skills{
-            position: absolute;
-            top: 70px;
-            right: 0px;
-        }
-        .neon-line{
-            transition: .6s ease-in;
-            color: #fff;
-            -webkit-animation: neonDarkbox 1.5s ease-in-out infinite alternate;
-            -moz-animation: neonDarkbox 1.5s ease-in-out infinite alternate;
-            animation: neonDarkbox 1.5s ease-in-out infinite alternate;
-        }
-        .neon-line.main{
-            border: 4px solid;
-            border-radius: 20px;
-            overflow: visible;
-            width: 500px;
-            margin: auto;
-            top: 100px;
-            height: 500px;
-            position: relative;
-        }
-
-        .neon-line.skills{
-            border: 4px solid;
-            border-radius: 20px;
-            overflow: visible;
-            width: 200px;
-            height: 300px;
-            position: absolute;
-            right: 0px;
-            top: 133px;
-        }
-        .works{
-            padding: 50px;
-            height: 750px;
-            margin: 100px 0;
-            background-color: #0c1212;
-            border: 10px inset #0d1513;
-            img{
-                
-                position: relative;
-                height: 100%;
-                width: auto;
-                border: 2px solid $main-light-color;
-            }
-            .works-link{
-                position: absolute;
-                left: 50px;
-                bottom: 50px;
-            }
-        }
-
-        .bottom-left{
-            position: absolute;
-            bottom: 5%;
-            left:3%
-        }
-
-        .progress{
-            background-color: $secondary;
-            .progress-bar{
-                background-color: $font-color
-            }
-        }
-        .logo{
-            width: 40%;
-
-        }
-    }
     .web.light{
-        position: absolute;
-        width: 100%;
-        margin: auto;
-        overflow-x: hidden;   
-        background-color: $main-light-color;
-
-        section{
-            position: relative;
-            width: 90%;
-            margin: auto;
-        }
-        h1, h2, h3{
-            color: rgb(255, 255, 255);
-            font-family: 'Unica One', cursive;;
-        }
-        h1{
-            font-size: $h1-size;
-            text-transform: uppercase;
-        }
-        h2{
-            font-size: $h2-size;
-            text-transform: uppercase;
-        }
-        h3{
-            font-size: $h3-size;
-        }
-        h4{
-            font-size: 25px;
-            color: #000;
-            font-family: 'Staatliches', cursive;
-        }
-        p {
-            color: $p-light-color;
-            font-size: $p-size;
-            font-family: 'Raleway', sans-serif;
-        }
-        hr{
-            color: #000;
-        }
-        .fas, .far{
-            color: #000;
-            fill: none;
-            font-size: $h3-size;
-        }
-        .v-center{
-            vertical-align: middle;
-        }
-        .title-main{
-            width: 800px;
-            left: -150px;
-            top: 80px;
-            position: absolute;
-            padding: 40px 0 90px;
-            text-align: center;
-            color: rgb(255, 255, 255);
-            -webkit-animation: neonLighttxt 1.5s ease-in-out infinite alternate;
-            -moz-animation: neonLighttxt 1.5s ease-in-out infinite alternate;
-            animation: neonLighttxt 1.5s ease-in-out infinite alternate;
-        }
-        .title-skills{
-            position: absolute;
-            top: 70px;
-            right: 0px;
-            color: rgb(255, 255, 255);
-            -webkit-animation: neonLighttxt 1.5s ease-in-out infinite alternate;
-            -moz-animation: neonLighttxt 1.5s ease-in-out infinite alternate;
-            animation: neonLighttxt 1.5s ease-in-out infinite alternate;
-        }
-        .neon-line{
-            transition: .6s ease-in;
-            color: #fff;
-            -webkit-animation: neonLightbox 1.5s ease-in-out infinite alternate;
-            -moz-animation: neonLightbox 1.5s ease-in-out infinite alternate;
-            animation: neonLightbox 1.5s ease-in-out infinite alternate;
-        }
-        .neon-line.main{
-            border: 4px solid;
-            border-radius: 20px;
-            overflow: visible;
-            width: 500px;
-            margin: auto;
-            top: 100px;
-            height: 500px;
+        max-width: 100vw;
+        overflow-x: hidden;
+        font-family: 'Roboto Mono', monospace;
+        background: $main-light-color;
+        color: #000;
+        // SECTION BLOC
+        
+        .section {
+            min-height: 100vh;
             position: relative;
         }
-
-        .neon-line.skills{
-            border: 4px solid;
-            border-radius: 20px;
-            overflow: visible;
-            width: 200px;
-            height: 300px;
+        
+        .section--horizontal {
+            height: 300vw;
+        
+            .section__inner {
+            width: 300vw;
+            height: 100vh;
             position: absolute;
-            right: 0px;
-            top: 133px;
-        }
-        .works{
-            padding: 50px;
-            height: 750px;
-            margin: 100px 0;
-            border: 1px solid $main-color;
-            img{
-                
-                position: relative;
-                height: 100%;
-                width: auto;
-            }
-            .works-link{
-                position: absolute;
-                left: 50px;
-                bottom: 50px;
+            top: 0;
+            left: 0;
             }
         }
-
-        .bottom-left{
-            position: absolute;
-            bottom: 5%;
-            left:3%
+        
+        .section--isFixed {
+            .section__inner {
+            position: fixed;
+            }
+        }
+        
+        .section--isScrolled {
+            .section__inner {
+            bottom: 0;
+            top: auto;
+            }
+        }
+        
+        // PRODUCTS BLOC
+        
+        .products {
+            display: flex;
+        }
+        
+        .products__product {
+            flex-basis: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 100px;
         }
 
-        .logo{
-            width: 40%;
+        //typewriter
+
+        .terminal {
+            position: absolute;
+            left: 10%;
+            top: 50%;
+            text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+            font-family: 'Roboto Mono', monospace;
+            color: #000;
+        }
+        
+        .dollar:before {
+            content: '$';
+            color: #52a563;
+        }
+        
+        a {
+            font: 12px "Monaco", Inconsolata, monospace;
 
         }
     }
-}
-
-@media (max-width: 992px){
     .web.dark{
-        position: relative;
-        width: 100%;
-        margin: auto;
-        overflow-x: hidden;   
-        background-color: $main-color;
-
-        section{
+        max-width: 100vw;
+        overflow-x: hidden;
+        font-family: 'VCR', monospace;
+        background: $main-color;
+        color: $p-color;
+        // SECTION BLOC
+        
+        .section {
+            min-height: 100vh;
             position: relative;
-            width: 100%;
-            display: block;
-            margin: auto;
-            text-align: center;
         }
-        h1, h2, h3{
-            color: #fff;
-            font-family: 'Unica One', cursive;;
+        
+        .section--horizontal {
+            height: 300vw;
+        
+            .section__inner {
+            width: 300vw;
+            height: 100vh;
+            position: absolute;
+            top: 0;
+            left: 0;
+            }
         }
-        h1{
-            font-size: $h1-size-mobile;
-            text-transform: uppercase;
+        
+        .section--isFixed {
+            .section__inner {
+            position: fixed;
+            }
         }
-        h2{
-            font-size: $h2-size-mobile;
-            text-transform: uppercase;
+        
+        .section--isScrolled {
+            .section__inner {
+            bottom: 0;
+            top: auto;
+            }
         }
-        h3{
-            font-size: $h3-size-mobile;
+        
+        // PRODUCTS BLOC
+        
+        .products {
+            display: flex;
         }
-        h4{
-            font-size: 25px;
-            color: #fff;
-            font-family: 'Staatliches', cursive;
+        
+        .products__product {
+            flex-basis: 100vw;
+            height: 100vh;
+            display: flex;
+
         }
-        p {
+
+        button:focus{
+            outline:none;
+          }
+          .box{
+            background:$main-color;
+            border-width:2px;
+            border-color:#FFFFFF #808080 #808080 #FFFFFF;
+            border-style:solid;
+            position:absolute;
+            width: 30%;
+            height: 30%;
+            top: 50%;
+            left: 20%;
+            transform: translate(-50%,-50%);
+            padding:1px;
+          }
+          div.title{
+            height:20px;
+            width:100%;
+            background:#000080;
+            color:#FFF;
+          }
+          img.title{
+            float:left;
+          }
+          p.title{
+            margin:2px 0 0 1px;
+            float:left;
+          }
+          .title button{
+            /*position:absolute;
+            right:3px;
+            top:3px;*/
+            margin:2px 2px 2px 0;
+            float:right;
+            width:14px;
+            height:13.5px;
+            background:#C0C0C0;
+            border-width:1px;
+            border-color:#FFFFFF #808080 #808080 #FFFFFF;
+            padding:0;
+          }
+          div.body{
+            padding:13px 12px 12px;
+            height:100%;
+            width:100%;
+            display:inline-block;
+            color: #333;
+          }
+          .insta {
+            font-family: 'VCR', monospace;
+                margin: 50px;
+                border: 2px solid;
+                border-bottom-color: #535353;
+                border-right-color: #535353;
+                border-left-color: #dbdbdb;
+                border-top-color: #dbdbdb;
+                background-color: #bfbfbf;
+                width: 450px;
+                height: 700px;
+                font-size: 13px;
+                padding: 2px;
+                .stats{
+                    width: 50%;
+                    text-align: center;
+                    margin: 10px 40px;
+                }
+                ul.toolbar {
+                    list-style: none;
+                    position: absolute;
+                    padding: 2px 0;
+                    margin: 0;
+                    color: #333;
+                    li {
+                        display: inline-block;
+                        padding: 0 5px;
+                    }
+                }
+                .follow{
+                    margin:2px 2px 2px 0;
+                    background:#C0C0C0;
+                    border-width:2px;
+                    border-color:#FFFFFF #808080 #808080 #FFFFFF;
+                    padding:0;
+                    width: 100%;
+                }
+                .ig-btn{
+                    margin:2px 2px 2px 0;
+                    background:#C0C0C0;
+                    border-width:2px;
+                    border-color:#FFFFFF #808080 #808080 #FFFFFF;
+                    padding:0;
+                    width: 23%;
+                }
+                button.ig-btn.active {
+                    border-style: inset;
+                    border-width: 2px;
+                    border-color: #808080 #FFFFFF #FFFFFF #808080;
+                }
+                hr{
+                    border-top: 2px solid #333;
+                    margin-bottom: 0.4em;
+                }
+                .profile{
+                    border-radius: 100%;
+                    width: 100px;
+                    height: 100px;
+                    margin: 0 15px 15px 25px;
+                    background: #000;
+                }
+                .pictures{
+                    border-style: inset;
+                    border-width: 2px;
+                    border-color: #808080 #FFFFFF #FFFFFF #808080;
+                }
+            }
+            .statusbar {
+              .left, .right {
+                border: 1px solid;
+                border-color: #888 #dadada #dadada #888;
+                display: inline-block;
+                padding: 0px 5px;
+                font-size: 11px;
+              }
+              .left {
+                width: 33%;
+              }
+              .right {
+                width: 66%;
+              }
+            }
+          
+
+        //typewriter
+
+        .terminal {
+            text-shadow: 0px 0px 5px #fff;
+            font-family: 'VCR', monospace;
             color: $p-color;
-            font-size: $p-size-mobile;
-            font-family: 'Raleway', sans-serif;
         }
-        hr{
-            color: #fff;
+        
+        .dollar:before {
+            content: '$';
+            color: #ffffff;
         }
-        .fas, .far{
-            color: #fff;
-            fill: none;
-            font-size: $h3-size;
-        }
-        .title-main{
-            width: 500px;
-            left: -100px;
-            top: 40px;
-            position: absolute;
-            text-align: center;
-        }
-        .title-skills {
-            text-align: center;
-            left: -40px;
-            top: 70px;
-            position: absolute;
-        }
-        .neon-line.main{
-            display: block;
-            border: 4px solid;
-            border-radius: 20px;
-            overflow: visible;
-            width: 300px;
-            height: 500px;
-            position: relative;
-            margin: auto;
-        }
+        
+        a {
+            font: 12px "Monaco", Inconsolata, monospace;
 
-        .neon-line.skills{
-            display: block;
-            border: 4px solid;
-            border-radius: 20px;
-            overflow: visible;
-            width: 200px;
-            height: 300px;
-            position: relative;
-            margin: auto;
-            right: 0;
         }
-    }
-}
-
-@media (min-height: 700px){
-    section{
-        min-height: 800px;
-    }
-}
-@media (min-height: 800px){
-    section{
-        min-height: 900px;
-    }
-}
-@media (min-height: 900px){
-    section{
-        min-height: 1000px;
-    }
-}
-@media (min-height: 1000px){
-    section{
-        min-height: 1100px;
-    }
-}
-@media (min-height: 1200px){
-    section{
-        min-height: 1300px;
     }
 }

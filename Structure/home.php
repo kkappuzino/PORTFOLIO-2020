@@ -1,59 +1,134 @@
-<section id="home">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 v-center">
-                <div class="neon-line main">
-                    <div class="title-main">
-                        <h1 class="">VENLA PAANILA</h1>
-                        <h2 class=""> / DEVELOPER</h2>
-                        <h2 class=""> / ARTIST</h2>
-                    </div> 
-                </div>
-    
+<section class="section" id="home">
+    <div class="box">
+        <div class="title">
+            <p class="title">Windows 95</p>
+            <button>X</button>
+            <button>?</button>
+        </div>
+        <div class="body">
+            <div class="terminal">
+                <span class="dollar"></span> >Hello world!< <br>
+                <span class="dollar"></span> info = 'name', 'occupation1', 'occupation2', 'hobby' <br>
+                <span class="dollar"></span> print(info) <br>
+                <span class="dollar"></span> Venla Alisa Paanila <br>
+                <span class="dollar"></span> Web Developer <br>
+                <span class="dollar"></span> Web Designer <br>
+                <span class="dollar"></span> Artist
             </div>
         </div>
     </div>
 </section>
 
-<section id="skills">
-    <div class="row">
-        <div class="col-12 v-center">
-            <div class="neon-line skills">
-                <div class="title-skills">
-                    <h1 class="">SKILLS</h1>
-                </div> 
+<section class="section" id="skills">
+</section>
+
+<section class="section section--horizontal" id="works">
+  <div class="section__inner">
+    <div class="products">
+      <div class="products__product">
+        Product 1
+      </div>
+      <div class="products__product">
+        Product 2
+      </div>
+      <div class="products__product">
+        Product 3
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section section--horizontal" id="art">
+  <div class="section__inner">
+    <div class="products">
+      <div class="products__product">
+        <div class="insta">
+            <div class="title">
+                <i class="fab fa-instagram-square" style="float:left;margin:4px;"></i><p class="title">Instagram.exe</p>
+                <button class="expand"><span class="fa fa-square-o"></span></button>
+                <button class="times"><span class="fa fa-times"></span></button>
+                <button class="minimize"><span class="fa fa-minus"></span></button>
+
+
             </div>
-        </div><br>
-<!--        <div class="col-12 col-md-2 up">
-            <ul>
-                <li class="skills"><h3><i class="far fa-check-square"></i>  SCSS</h3></li>
-                <li class="skills"><h3><i class="far fa-check-square"></i>  Wordpress</h3></li>
-                <li class="skills"><h3><i class="far fa-check-square"></i>  Java</h3></li>
-                <li class="skills"><h3><i class="far fa-check-square"></i>  Gitbash</h3></li>
-                <li class="skills"><h3><i class="far fa-check-square"></i>  less</h3></li>
-                <li class="skills"><h3><i class="far fa-check-square"></i>  Sql</h3></li>
-                <li class="skills"><h3><i class="far fa-check-square"></i>  Office 365</h3></li>
-                <li class="skills"><h3><i class="far fa-check-square"></i>  Bootstrap</h3></li>
+            <ul class="toolbar">
+                <li><u>F</u>ile</li>
+                <li><u>E</u>dit</li>
+                <li><u>V</u>iew</li>
+                <li><u>H</u>elp</li>
             </ul>
-        </div>-->
-        <div class="col-12 col-sm-12 col-md-6 up">
-            <h2>FrontEnd</h2>
-            <p>I like finding new ways to make a webpage look unique. For this purpouse I tend to use javascript or jQuery with SCSS to always have something unique on the page. I also like to use different frameworks like Bootstrap to ease the process and focus on the outlook.</p>
-            <h2>BackEnd</h2>
-            <p>For BackEnd i tend to use PHP, but I'm also capable of using other languages and I'm always up for learning something new.</p>
-            <h2>Making games</h2>
-            <p>The moment that we started making games in class I fell in love. Unity with C# is the dream, coding C# came so naturally and it's such an easy language to write. That's why I started making my own game, in hopes to make it the best game I could ever make.</p>
-        </div>
-    </div>
-</section>
-<section id="works">
-    <div class="row">
-        <div class="col-12 v-center works">
-            <img src="./imgs/Whenwefallasleep.png" alt="picture" width="90%">
-            <iframe class="works-link" frameborder="0" src="https://itch.io/embed/516021?bg_color=141817&amp;fg_color=ffffff&amp;link_color=007b8d&amp;border_color=141817" width="208" height="167"><a href="https://misakia.itch.io/when-we-fall-asleep">When We Fall Asleep by Misaki</a></iframe>
-        </div> 
-    </div>
-</section>
-<section id="art">
+            <div class="body">
+                <p class="text-center my-3"><b>chubunart</b></p>
+                <hr>
+                <div class="row">
+                    <img class="profile" src="" alt="">
+                    <table class="stats">
+                        <tr>
+                            <th><b>30</b></th>
+                            <th><b>30</b></th>
+                            <th><b>30</b></th>
+                        </tr>
+                        <tr>
+                            <td>Posts</td>
+                            <td>Followers</td>
+                            <td>Following</td>
+                        </tr>
+                        <tr>
+                            <td colspan="3"><button class="follow">Follow</button></td>
+                        </tr>
+                    </table>
 
+                </div>
+                <div>
+                    <p><b>tfuftufu</b></p>
+                    <p>tfufttuftu<br>ftufufuttu</p>
+                    <hr>
+                </div>
+                <div class="row">
+                    <button class="ig-btn ml-3 active"><i class="fas fa-th"></i></button>
+                    <button class="ig-btn"><i class="fas fa-list-ul"></i></button>
+                    <button class="ig-btn"><i class="fas fa-map-marker-alt"></i></button>
+                    <button class="ig-btn"><i class="fas fa-user-tag"></i></button>
+                </div>
+                <div class="pictures">
+                    <table>
+                        <tr>
+                            <td><img src="" alt=""></td>
+                            <td><img src="" alt=""></td>
+                            <td><img src="" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td><img src="" alt=""></td>
+                            <td><img src="" alt=""></td>
+                            <td><img src="" alt=""></td>
+                        </tr>
+                        <tr>
+                            <td><img src="" alt=""></td>
+                            <td><img src="" alt=""></td>
+                            <td><img src="" alt=""></td>
+                        </tr>
+                    </table>
+                </div>
+
+            
+            </div>
+            <div class="statusbar">
+                <div class="left">3 object(s)</div>
+                <div class="right">&nbsp;</div>
+            </div>
+        </div>
+      </div>
+      <div class="products__product">
+        Product 2
+      </div>
+      <div class="products__product">
+        Product 3
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="me">
 </section>
