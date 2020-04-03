@@ -547,7 +547,7 @@ ul {
           color: #6361ff;
           mix-blend-mode: difference; }
       .web.light section .bg-works {
-        display: block;
+        display: inline-block;
         padding: 30px 0;
         margin: 0;
         padding: 80px 0;
@@ -849,7 +849,7 @@ ul {
         width: 100.6%;
         color: #f7ede9; }
         .web.dark section .itbtxt h2, .web.dark section .itbtxt p {
-          background-color: #6361ff;
+          background-color: #ff6161;
           margin-bottom: .5rem;
           padding-left: 10px; }
       .web.dark section .car {
@@ -935,7 +935,7 @@ ul {
           color: #6361ff;
           mix-blend-mode: difference; }
       .web.dark section .bg-works {
-        display: block;
+        display: inline-block;
         padding: 30px 0;
         margin: 0;
         padding: 80px 0;
