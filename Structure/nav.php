@@ -1,17 +1,19 @@
+<div class="nav navbar" id="navbar">
+  <div class="navbar-left">
+      <a href="#home">VENLA ALISA PORTFOLIO</a>
+  </div>
 
 
-<div class="nav navbar navbar-right align-middle" >
-    <div class="switch-wrap">
-      <div id="switch">
-        <div id="circle"></div>
+  <div class="navbar-right align-middle" >
+      <div class="switch-wrap">
+        <div id="switch">
+          <div id="circle"></div>
+        </div>
       </div>
-    </div>
-    <ul>
-      <!-- using tags for href are useful for one pagers-->
-      <li><a href="#home"><i class="far fa-circle" data-text="Home">Home</i></a></li>
-      <li><a href="#skills"><i class="far fa-circle" data-text="Skills">Skills</i></a></li>
-      <li><a href="#works"><i class="far fa-circle" data-text="Works">Works</i></a></li>
-      <li><a href="#art"><i class="far fa-circle" data-text="Art">Art</i></a></li>
-      <li><a href="#me"><i class="far fa-circle" data-text="About Me">About Me</i></a></li>
-    </ul>
+      <div class="links">
+        <a href="#design">DESIGN</a>
+        <a href="#works">WORKS</a>
+        <a href="#contact">CONTACT</a>
+      </div>
+  </div>
 </div>

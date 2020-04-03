@@ -10,13 +10,18 @@
     font-family: "VCR";
     src: url("VCR_OSD_MONO_1.001.woff");
 }
+@font-face {
+    font-family: "atamiB";
+    src: url("Atami-Bold.woff");
+}
 
 $Main-font: 'Bungee Hairline', cursive;
 
-/* Colors */ 
+/* Colors */
 $main-color: #141817;
 $main-light-color: rgb(247, 237, 233);
-$font-color: rgb(255, 17, 17);
+$font-light-color: #ff6161;
+$font-color: #6361ff;
 $p-color: rgb(245, 233, 233);
 $p-light-color: rgb(0, 0, 0);
 $secondary: #131b1b;
@@ -33,3 +38,15 @@ $h1-size-mobile: 110px;
 $h2-size-mobile: 50px;
 $h3-size-mobile: 35px;
 $p-size-mobile: 26px;
+
+
+.web.dark{
+    $font-color:#6361ff;
+    $main-color: #141817;
+    $p-color: rgb(245, 233, 233);
+}
+.web.light{
+    $font-color:#ff6161;
+    $main-color: rgb(247, 237, 233);
+    $p-color: rgb(245, 233, 233);
+}
