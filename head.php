@@ -17,7 +17,7 @@
             
             <!-- please do not steal, this code will be taught on my codepen https://codepen.io/kkappuzino -->
 
-        </head>
+      /* so  */ </head>  /* <brk>skateboard</brk>  */
         <body class="web light" id="myPage" data-spy="scroll" data-target="#navbar" data-offset="800">
             <section class="toosmall">
                 <div class="container">
